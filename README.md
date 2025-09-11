@@ -1,1 +1,2 @@
-# https://ClickManer.github.io/rsschool-cv/cv
+# https://ClickManer.github.io/rsschool-cv/
+
