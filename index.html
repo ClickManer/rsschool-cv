@@ -45,9 +45,9 @@
                 <li>GitHub, Git</li>
             </ul>
         </section>
-        <section class="section" id="Code">
-            <h3>Example Code</h3>
-            <pre><code>
+<section class="section" id="Code">
+  <h3>Example Code</h3>
+  <pre><code>
 const secret = Math.floor(Math.random() * 100) + 1;
 let attempts = 0;
 
@@ -57,16 +57,17 @@ function guess(num) {
   attempts++;
   if (num === secret) {
     console.log(`Угадал! Число было ${secret}. Попыток: ${attempts}`);
-  } else if (num > secret) {
+  } else if (num &gt; secret) {
     console.log("Моё число меньше.");
-  } else if (num < secret) {
+  } else if (num &lt; secret) {
     console.log("Моё число больше.");
   } else {
     console.log("Это не число. Попробуй снова.");
   }
 }
-            </code></pre>
-        </section>
+  </code></pre>
+</section>
+
         <section class="section" id="Courses">
             <h3>Courses</h3>
             <p>Absent</p>
