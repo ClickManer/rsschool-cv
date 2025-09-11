@@ -4,9 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>CV - Viachaslau Miatselitsa</title>
 </head>
 <body>
-    
+    <header class="head">
+        <section id="username">
+        <img src="assets/avatar.jpg">
+        <h1>Viachaslau Miatselitsa</h1>
+        </section>
+        <section id="nav">
+            <ul id="nav-list">
+          <li>
+            <a href="#Contact">Contact information</a>
+          </li>
+          <li>
+            <a href="#About">About me</a>
+          </li>
+          <li>
+            <a href="#Skills">Skills</a>
+          </li>
+          <li>
+            <a href="#Code">Code Example</a>
+          </li>
+          <li>
+            <a href="#Courses">Courses</a>
+          </li>
+          <li>
+            <a href="#Languages">Languages</a>
+          </li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section class="section", id="Contact">
+                <ul>
+                    <li><strong>Discord:</strong> <a href="https://discordapp.com/users/638771300680335370/">skyf4l</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:slava.metelicza@bk.ru">slava.metelicza@bk.ru</a></li>
+                    <li><strong>Phone:</strong> +375 25 678 06 14</li>
+      </ul>
+        </section>
+        <section class="section", id="About">
+             <h3>About Me</h3>
+                <p>I am currently studying at Polotsk State University with a degree in Programmable Mobile Systems. 
+                I love learning and discovering new things. I am serious about taking this course because I want to improve my programming skills.</p>
+    </section>
+        </section>
+        <section class="section", id="Skills">
+            <h3>Technical Skills</h3>
+                <ul>
+                    <li>HTML, CSS</li>
+                    <li>JavaScript (Basics)</li>
+                    <li>GitHub, Git</li>
+                </ul>
+        </section>
+        <section class="section", id="Code">
+             <h3>Example Code</h3>
+                <pre><code>
+const secret = Math.floor(Math.random() * 100) + 1;
+let attempts = 0;
+
+console.log("Я загадал число от 1 до 100. Используй guess(число), чтобы проверить!");
+
+function guess(num) {
+  attempts++;
+  if (num === secret) {
+    console.log(`Угадал! Число было ${secret}. Попыток: ${attempts}`);
+  } else if (num > secret) {
+    console.log("Моё число меньше.");
+  } else if (num < secret) {
+    console.log("Моё число больше.");
+  } else {
+    console.log("Это не число. Попробуй снова.");
+  }
+}
+                </code></pre>
+        </section>
+         <section class="section", id="Courses">
+             <h3>Courses</h3>
+             <p>Absent</p>
+        </section>
+        <section class="section", id="Languages">
+             <h3>Languages</h3>
+                <ul>
+                <li>Russian (native)</li>
+                <li>Belarussian (native)</li>
+                <li>English (A2-A2+)</li>
+      </ul>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2025 Viachaslau Miatselitsa</p>
+    </footer>
 </body>
 </html>
